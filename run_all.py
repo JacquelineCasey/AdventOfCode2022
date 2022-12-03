@@ -6,6 +6,7 @@ import time
 compiler_path = '/usr/local/Cellar/llvm/14.0.6_1/bin/clang++'
 compile_command = f'{compiler_path} -std=c++20 -Wall -Wextra -Werror -Wpedantic -O3'
 
+
 def compile(file: str):
     os.system(f'{compile_command} {file} -o {file.removesuffix(".cpp")}')
 
@@ -28,6 +29,7 @@ def run_day(dir: str):
 def main():
     run_day('Day01')
     run_day('Day02')
+    run_day('Day03')
 
 
 if __name__ == '__main__':
