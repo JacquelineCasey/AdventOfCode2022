@@ -11,7 +11,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 01  | Calorie Counting        |
 | 02  | Rock Paper Scissors     |
 | 03  | Rucksack Reorganization |
-| 04  |                         |
+| 04  | Camp Cleanup            |
 | 05  |                         |
 | 06  |                         |
 | 07  |                         |

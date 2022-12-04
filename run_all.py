@@ -30,6 +30,7 @@ def main():
     run_day('Day01')
     run_day('Day02')
     run_day('Day03')
+    run_day('Day04')
 
 
 if __name__ == '__main__':
