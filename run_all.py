@@ -5,6 +5,7 @@ import time
 # You will probably need to change these depending on what compiler you use.
 compiler_path = '/usr/local/Cellar/llvm/14.0.6_1/bin/clang++'
 compile_command = f'{compiler_path} -std=c++20 -Wall -Wextra -Werror -Wpedantic -O3'
+days_completed = 5
 
 
 def compile(file: str):
@@ -27,10 +28,8 @@ def run_day(dir: str):
 
 
 def main():
-    run_day('Day01')
-    run_day('Day02')
-    run_day('Day03')
-    run_day('Day04')
+    for i in range(1, days_completed + 1):
+        run_day(f'Day{i:02}')
 
 
 if __name__ == '__main__':
