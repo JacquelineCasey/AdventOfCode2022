@@ -15,8 +15,8 @@ It can be hard to hunt down the old problems. Here is a list:
 | 05  | Supply Stacks           |
 | 06  | Tuning Trouble          |
 | 07  | No Space Left On Device |
-| 08  |                         | 
-| 09  |                         |
+| 08  | Treetop Tree House      | 
+| 09  | Rope Bridge             |
 | 10  |                         |
 | 11  |                         |
 | 12  |                         |
