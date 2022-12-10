@@ -9,13 +9,13 @@ int main() {
     std::string instruction {};
     while (std::cin >> instruction) {
         
-        // Output # or .
+        // Output # or space
         int horizontal_pos = cycle % 40;
         if (horizontal_pos == x - 1 || horizontal_pos == x || horizontal_pos == x + 1) {
             std::cout << '#';
         }
         else {
-            std::cout << '.';
+            std::cout << ' ';
         }
 
         // Newline after 40
