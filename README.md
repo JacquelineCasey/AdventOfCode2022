@@ -17,8 +17,8 @@ It can be hard to hunt down the old problems. Here is a list:
 | 07  | No Space Left On Device |
 | 08  | Treetop Tree House      | 
 | 09  | Rope Bridge             |
-| 10  |                         |
-| 11  |                         |
+| 10  | Cathode-Ray Tube        |
+| 11  | Monkey in the Middle    |
 | 12  |                         |
 | 13  |                         |
 | 14  |                         |
