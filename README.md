@@ -19,7 +19,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 09  | Rope Bridge             |
 | 10  | Cathode-Ray Tube        |
 | 11  | Monkey in the Middle    |
-| 12  |                         |
+| 12  | Hill Climbing Algorithm |
 | 13  |                         |
 | 14  |                         |
 | 15  |                         |
