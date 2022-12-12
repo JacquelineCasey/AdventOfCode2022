@@ -9,7 +9,7 @@ int bfs(const std::vector<std::vector<int>>& heights, int target_row, int target
 
     std::vector<std::vector<bool>> visited (heights.size(), std::vector(heights[0].size(), false));
     
-    visited[target_row][target_col] = true; // Now we dfs from the end!
+    visited[target_row][target_col] = true; // Now we bfs from the end!
 
     std::vector<std::pair<int, int>> newly_visited {std::pair(target_row, target_col)};
 
