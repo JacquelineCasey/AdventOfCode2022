@@ -5,7 +5,7 @@ import time
 # You will probably need to change these depending on what compiler you use.
 compiler_path = '/usr/local/Cellar/llvm/14.0.6_1/bin/clang++'
 compile_command = f'{compiler_path} -std=c++20 -Wall -Wextra -Werror -Wpedantic -O3'
-days_completed = 12
+days_completed = 13
 
 
 def compile(file: str):
@@ -14,7 +14,7 @@ def compile(file: str):
 def run(program: str, input: str):
     start = time.time()
     os.system(f'{program} < {input}')
-    print(f'Execution Time: {round(time.time() - start, 3)}s')
+    print(f'Runtime {round(time.time() - start, 3)}s')
 
 
 def run_day(dir: str):
