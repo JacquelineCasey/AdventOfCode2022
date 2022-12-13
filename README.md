@@ -20,7 +20,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 10  | Cathode-Ray Tube        |
 | 11  | Monkey in the Middle    |
 | 12  | Hill Climbing Algorithm |
-| 13  |                         |
+| 13  | Distress Signal         |
 | 14  |                         |
 | 15  |                         |
 | 16  |                         |
