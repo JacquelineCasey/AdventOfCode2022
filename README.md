@@ -22,7 +22,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 12  | Hill Climbing Algorithm |
 | 13  | Distress Signal         |
 | 14  | Regolith Reservoir      |
-| 15  |                         |
+| 15  | Beacon Scanner          |
 | 16  |                         |
 | 17  |                         |
 | 18  |                         |
