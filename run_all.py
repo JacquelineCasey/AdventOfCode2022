@@ -12,12 +12,6 @@ def compile(file: str):
     os.system(f'{compile_command} {file} -o {file.removesuffix(".cpp")}')
 
 def run(program: str, input: str):
-    if program == "Day16/part2":
-        print("This one takes an hour :P")
-        print("The answer was 1999. I won't run it again.")
-        print(f'Runtime ~{3600}s')
-        return
-
     start = time.time()
     os.system(f'{program} < {input}')
     print(f'Runtime {round(time.time() - start, 3)}s')
