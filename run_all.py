@@ -5,13 +5,19 @@ import time
 # You will probably need to change these depending on what compiler you use.
 compiler_path = '/usr/local/Cellar/llvm/14.0.6_1/bin/clang++'
 compile_command = f'{compiler_path} -std=c++20 -Wall -Wextra -Werror -Wpedantic -O3'
-days_completed = 15
+days_completed = 16
 
 
 def compile(file: str):
     os.system(f'{compile_command} {file} -o {file.removesuffix(".cpp")}')
 
 def run(program: str, input: str):
+    if program == "Day16/part2":
+        print("This one takes an hour :P")
+        print("The answer was 1999. I won't run it again.")
+        print(f'Runtime ~{3600}s')
+        return
+
     start = time.time()
     os.system(f'{program} < {input}')
     print(f'Runtime {round(time.time() - start, 3)}s')
