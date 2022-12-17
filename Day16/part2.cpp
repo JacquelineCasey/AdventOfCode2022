@@ -1,5 +1,5 @@
 /*
- * A cleaned up (and hopefully faster) version of part2.
+ * A cleaned up and significantly faster version of part2.
  * 
  * The old version has too much wandering around between the agents. In this version,
  * they will decide which unopened valve to go to, and progress there without
@@ -370,4 +370,12 @@ int main() {
 
     std::unordered_map<memo_key, int> map {};
     std::cout << max_pressure_release(graph, unopened, a1, a2, map) << '\n';
+
+    // Fun fact - this solves part1 too!
+    // map = {};
+    // a1 = {.target = AA_index, .time = 30};
+    // a2 = {.target = AA_index, .time = 0}; // The elephant is slacking
+
+    // map = {};
+    // std::cout << max_pressure_release(graph, unopened, a1, a2, map) << '\n'; // around .1 seconds.
 }
