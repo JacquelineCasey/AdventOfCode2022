@@ -25,7 +25,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 15  | Beacon Scanner          |
 | 16  | Proboscidea Volcanium   |
 | 17  | Pyroclastic Flow        |
-| 18  |                         |
+| 18  | Boiling Boulders        |
 | 19  |                         |
 | 20  |                         |
 | 21  |                         |
