@@ -23,8 +23,8 @@ It can be hard to hunt down the old problems. Here is a list:
 | 13  | Distress Signal         |
 | 14  | Regolith Reservoir      |
 | 15  | Beacon Scanner          |
-| 16  |                         |
-| 17  |                         |
+| 16  | Proboscidea Volcanium   |
+| 17  | Pyroclastic Flow        |
 | 18  |                         |
 | 19  |                         |
 | 20  |                         |
