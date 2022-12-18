@@ -65,9 +65,7 @@ int main() {
     // It will be helpful to move all rocks into a cube, with at least a single
     // layer around the edge. We will simulate filling this with water.
 
-    for (vec3& cube : cubes) {
-        auto& [x, y, z] {cube};
-
+    for (auto& [x, y, z] : cubes) {
         x = x - min + 1; // so if x was the min, it is now at 1.
         y = y - min + 1;
         z = z - min + 1;
@@ -77,7 +75,7 @@ int main() {
 
     grid grid(size, std::vector(size, std::vector(size, material::AIR)));
 
-    for (auto& [x, y, z] : cubes) {
+    for (auto [x, y, z] : cubes) {
         grid[x][y][z] = material::LAVA;
     }
 
