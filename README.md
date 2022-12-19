@@ -26,7 +26,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 16  | Proboscidea Volcanium   |
 | 17  | Pyroclastic Flow        |
 | 18  | Boiling Boulders        |
-| 19  |                         |
+| 19  | Not Enough Minerals     |
 | 20  |                         |
 | 21  |                         |
 | 22  |                         |
