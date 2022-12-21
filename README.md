@@ -28,7 +28,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 18  | Boiling Boulders         |
 | 19  | Not Enough Minerals      |
 | 20  | Grove Positioning System |
-| 21  |                          |
+| 21  | Monkey Math              |
 | 22  |                          |
 | 23  |                          |
 | 24  |                          |
