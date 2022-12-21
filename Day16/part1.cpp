@@ -56,8 +56,6 @@ struct memo_table_key {
     long hash;
 
     friend bool operator==(const memo_table_key& lhs, const memo_table_key& rhs) {
-        static int collisions = 0;
-        collisions++;
         return lhs.hash == rhs.hash 
             && lhs.time_left == rhs.time_left 
             && lhs.from == rhs.from
