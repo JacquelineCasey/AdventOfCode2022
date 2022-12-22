@@ -29,7 +29,7 @@ It can be hard to hunt down the old problems. Here is a list:
 | 19  | Not Enough Minerals      |
 | 20  | Grove Positioning System |
 | 21  | Monkey Math              |
-| 22  |                          |
+| 22  | Monkey Map               |
 | 23  |                          |
 | 24  |                          |
 | 25  |                          |

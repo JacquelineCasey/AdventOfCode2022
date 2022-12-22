@@ -5,7 +5,7 @@ import time
 # You will probably need to change these depending on what compiler you use.
 compiler_path = '/usr/local/Cellar/llvm/15.0.1/bin/clang++'
 compile_command = f'{compiler_path} -std=c++20 -Wall -Wextra -Werror -Wpedantic -O3'
-days_completed = 21
+days_completed = 22
 
 
 def compile(file: str):
