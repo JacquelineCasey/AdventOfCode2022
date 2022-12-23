@@ -19,7 +19,7 @@ using grid = std::vector<std::vector<char>>;
 // It will be convenient to add a layer of spaces around the input, both for index
 // calculation and for preventing index out of bounds.
 grid as_grid(std::vector<std::string> lines) {
-    /* First, pad the lines vertically, by adding too new lines. */
+    /* First, pad the lines vertically, by adding two new lines. */
     lines.insert(lines.begin(), "");
     lines.push_back({});
 
